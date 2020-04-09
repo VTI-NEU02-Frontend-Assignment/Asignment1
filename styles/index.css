@@ -37,9 +37,10 @@ header img {
 
 /* Footer styles */
 footer {
-    background-color: gray;
+    background-color: #6e7da2;
     font-family: K2D, sans-serif;
-    color: rgb(255, 255, 255);
+    font-size: 15px;
+    color: #fcf8f3;
 }
 
 footer h5 {
@@ -51,7 +52,7 @@ footer ul {
 }
 
 footer a {
-    color: white;
+    color: #fcf8f3;
 }
 
 footer a:hover {
