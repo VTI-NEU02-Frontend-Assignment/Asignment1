@@ -77,6 +77,10 @@ header img {
 }
 
 /* About us*/
+#aboutUsContent {
+    text-align: center;
+}
+
 #aboutUs a.btn-outline-primary {
     transition: 0.5s;
     border-color: #00AEE0;

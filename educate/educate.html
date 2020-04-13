@@ -39,10 +39,10 @@
                         <div class="collapse navbar-collapse" id="menu">
                             <ul id="menu" class="navbar-nav d-inline-flex">
                                 <li class="nav-item">
-                                    <a class="nav-link active mx-2" href="#">Home</a>
+                                    <a class="nav-link mx-2" href="../index.html">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link mx-2" href="#">Đào tạo</a>
+                                    <a class="nav-link active mx-2" href="educate.html">Đào tạo</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link mx-2" href="#">Mentor</a>
@@ -61,27 +61,107 @@
         </nav>
     </header>
 
-    <!-- Main -->
-    <div class="container">
-        <h2>Dynamic Tabs</h2>
-        <p>To make the tabs toggleable, add the data-toggle="tab" attribute to each link. Then add a .tab-pane class
-            with a unique ID for every tab and wrap them inside a div element with class .tab-content.</p>
+    <!-- Banners -->
+    <div id="banner" class="container-fluid mb-5">
+        <div id="contentBanner">
+            <h2>Thông tin đào tạo</h2>
+            <svg height="4" width="200">
+                <line x1="0" y1="0" x2="200" y2="0" style="stroke:#ddd;stroke-width:4" />
+                Sorry, your browser does not support inline SVG.
+            </svg>
+        </div>
+        <div id="imgBanner">
+        </div>
+    </div>
 
-        <ul class="nav nav-tabs">
-            <li class="active"><a data-toggle="tab" href="#personal">Home</a></li>
-            <li><a data-toggle="tab" href="#business">Menu 1</a></li>
-        </ul>
-
-        <div class="tab-content">
-            <div id="personal" class="tab-pane fade in active">
-                <h3>HOME</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua.</p>
+    <!-- Compaire -->
+    <div id="educate" class="container-fluid mb-5">
+        <nav>
+            <div class="nav nav-pills justify-content-center">
+                <a class="nav-item nav-link active" data-toggle="tab" href="#nav-personal">Cá nhân</a>
+                <a class="nav-item nav-link" data-toggle="tab" href="#nav-business">Doanh nghiệp</a>
             </div>
-            <div id="business" class="tab-pane fade">
-                <h3>Menu 1</h3>
-                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat.</p>
+        </nav>
+        <div class="tab-content">
+            <div class="tab-pane fade show active" id="nav-personal">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-md-6 col-lg-4 mt-5">
+                            <div id="card_1" class="card">
+                                <div class="card-header">
+                                    <h4>Huấn luyện trực tiếp</h4>
+                                </div>
+                                <div class="card-body">
+                                    <ul class="list-unstyled">
+                                        <li>Toàn thời gian 3 tháng</li>
+                                        <li>Full time hành chính</li>
+                                        <li>Online 24/7</li>
+                                        <li>Chuyên gia hỗ trợ trực tiếp</li>
+                                        <li>Điều chỉnh phù hợp</li>
+                                    </ul>
+                                    <a href="#" class="btn btn-primary mt-3">Đăng ký</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 mt-5">
+                            <div id="card_2" class="card">
+                                <div class="card-header">
+                                    <h4>Huấn luyện hỗn hợp 1</h44>
+                                </div>
+                                <div class="card-body">
+                                    <ul class="list-unstyled">
+                                        <li>Bán thời gian 4.5 tháng</li>
+                                        <li>3 buổi một tuần</li>
+                                        <li>Online 24/7</li>
+                                        <li>Chuyên gia hỗ trợ trực tiếp</li>
+                                        <li>Điều chỉnh phù hợp</li>
+                                    </ul>
+                                    <a href="#" class="btn btn-primary mt-3">Đăng ký</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 mt-5">
+                            <div id="card_3" class="card">
+                                <div class="card-header">
+                                    <h4>Huấn luyện hỗn hợp 2</h4>
+                                </div>
+                                <div class="card-body">
+                                    <ul class="list-unstyled">
+                                        <li>Bán thời gian 6 tháng</li>
+                                        <li>2 buổi một tuần</li>
+                                        <li>Online 24/7</li>
+                                        <li>Chuyên gia hỗ trợ trực tiếp</li>
+                                        <li>Điều chỉnh phù hợp</li>
+                                    </ul>
+                                    <a href="#" class="btn btn-primary mt-3">Đăng ký</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="nav-business">
+                <div class="container-fluid">
+                    <div class="row justify-content-center">
+                        <div class="col-md-6 col-lg-4 mt-5">
+                            <div id="card_4" class="card">
+                                <div class="card-header">
+                                    <h4>Huấn luyện cho đối tác</h44>
+                                </div>
+                                <div class="card-body">
+                                    <ul class="list-unstyled">
+                                        <li>Toàn thời gian 3 tháng</li>
+                                        <li>Full time hành chính</li>
+                                        <li>Online 24/7</li>
+                                        <li>Chuyên gia hỗ trợ trực tiếp</li>
+                                        <li>Điều chỉnh phù hợp</li>
+                                    </ul>
+                                    <a href="#" class="btn btn-primary mt-3">Đăng ký</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -109,7 +189,10 @@
                     <h5>Quick Links</h5>
                     <ul class="p-0 mt-3">
                         <li class="mb-2">
-                            <a href="#">Đào tạo</a>
+                            <a href="../index.html">Home</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="educate.html">Đào tạo</a>
                         </li>
                         <li class="mb-2">
                             <a href="#">Mentor</a>
