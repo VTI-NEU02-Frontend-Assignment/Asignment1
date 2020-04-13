@@ -112,8 +112,7 @@ header img {
     overflow: hidden;
 }
 
-.educationInfor img,
-h5 {
+.educationInfor img, h5 {
     transition: all .5s ease;
 }
 
