@@ -68,6 +68,10 @@ footer a:hover {
 }
 
 /* main */
+.about_header_bg {
+    position: relative;
+}
+
 .about_header {
     position: absolute;
     z-index: 1;

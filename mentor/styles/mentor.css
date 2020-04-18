@@ -1,25 +1,6 @@
 /* Font */
 @import url('https://fonts.googleapis.com/css2?family=K2D:wght@400;500&family=Montserrat:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
-@media (max-width: 576px)
-.about_header > {
-    font-size: 16px;
-}
-
-@media (max-width: 768px)
-.about_header {
-    font-size: 20px;
-}
-
-@media (max-width: 992px)
-.about_header {
-    font-size: 30px;
-}
-
-@media (max-width: 1200px)
-.about_header {
-    font-size: 60px;
-}
 
 /* Header styles */
 header a {
@@ -88,15 +69,18 @@ footer a:hover {
 }
 
 /* Main */
+.about_header_bg {
+    position: relative;
+}
+
 .about_header {
     position: absolute;
     z-index: 1;
-    top: 45%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
     color: #fff;
-    padding: 80px 0;
     width: 100%;
 }
 
